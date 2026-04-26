@@ -141,7 +141,7 @@ export default function Hero() {
           <img
             src="/profile.jpg"
             alt="Profile"
-            className="relative w-20 h-20 md:w-40 md:h-40 object-cover rounded-full border-2 border-blue-500/40"
+            className="relative w-40 h-40 object-cover rounded-full border-2 border-blue-500/40"
           />
         </div>
 
