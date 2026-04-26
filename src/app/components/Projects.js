@@ -18,7 +18,7 @@ const projects = [
   {
     title: "Profast - Role-Based Parcel Delivery Platform",
     desc: "Profast is a full-stack logistics web application that connects Users, Riders, and Admins into a unified parcel delivery ecosystem.",
-    image: "/profast.png",
+    image: "/pro.png",
     github: "https://github.com/Z4Tauhid/Pro-Fast",
     live: "https://profast-5efce.web.app/",
     tech: ["React", "Node.js", "MongoDB", "Firebase"],
