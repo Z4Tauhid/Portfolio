@@ -47,7 +47,7 @@ export default function Navbar() {
     if (section) {
       section.scrollIntoView({
         behavior: "smooth",
-        block: "center",
+        block: "start",
       });
     }
     setSidebarOpen(false);
@@ -56,10 +56,10 @@ export default function Navbar() {
   return (
     <>
       {/* NAVBAR */}
-      <nav className="flex justify-between items-center px-6 sm:px-10 py-4 bg-[#020617] fixed w-full top-0 z-50">
+      <nav className="flex justify-between items-center px-6 sm:px-10 py-4 bg-[#020617] sticky w-full top-0 z-50">
 
         {/* Logo */}
-        <div className="flex gap-3 items-center">
+        <div className="flex gap-3 items-center pt-5 md:pt-0">
             <img
               src="/T.jpg"
               alt="Profile"
@@ -97,7 +97,7 @@ export default function Navbar() {
         </ul>
 
         {/* Right side */}
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 pt-5 md:pt-0">
           <a href="/MD TAUHID CV.pdf" target="_blank">
             <button className="bg-blue-500 hover:bg-blue-600 transition px-4 py-2 rounded-lg text-sm">
             Resume</button>

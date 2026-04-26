@@ -162,7 +162,7 @@ export default function Hero() {
           Building elegant solutions to complex problems with modern technologies.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4">
+        <div className="flex flex-row gap-4">
           <button onClick={() => handleScroll("contact")} className="bg-blue-500 hover:bg-blue-600 px-6 py-2 rounded-lg">
             Contact Me
           </button>
@@ -173,7 +173,7 @@ export default function Hero() {
           </button>
           
 
-          <div className="flex gap-6 text-3xl items-center">
+          <div className="md:flex gap-6 text-3xl items-center hidden ">
             
             <a href="https://github.com/Z4Tauhid?tab=repositories" target="_blank"><FaGithub className="text-gray-500 hover:text-blue-500 hover:rotate-12" /></a>
             <a href="https://www.linkedin.com/in/mdtauhiddev/" target="_blank"><FaLinkedin className="text-gray-500 hover:text-blue-500 hover:rotate-12" /></a>

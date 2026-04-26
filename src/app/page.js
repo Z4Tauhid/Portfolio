@@ -10,9 +10,11 @@ import Experience from "./components/Experience";
 
 export default function Home() {
   return (
+<>
+     <Navbar />
     <main>
       <CursorGlow />
-      <Navbar />
+     
       <div className="w-11/12 mx-auto">
 
        <Hero />
@@ -26,5 +28,6 @@ export default function Home() {
       <Footer></Footer>
      
     </main>
+</>
   );
 }
