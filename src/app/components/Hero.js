@@ -132,7 +132,7 @@ export default function Hero() {
 };
 
   return ( 
-    <section id="home" className="flex flex-col lg:flex-row items-center justify-center pt-10 md:pt-20 lg:pt-25 flex-wrap gap-10 lg:gap-25 min-h-screen">
+    <section id="home" className="flex flex-col lg:flex-row items-center justify-center pt-5 md:pt-20 lg:pt-25 flex-wrap gap-10 lg:gap-25 min-h-screen">
 
       {/* LEFT */}
       <div className="max-w-xl flex flex-col items-center lg:items-start text-center lg:text-left">
