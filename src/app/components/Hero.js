@@ -132,33 +132,33 @@ export default function Hero() {
 };
 
   return ( 
-    <section id="home" className="flex flex-col lg:flex-row items-center justify-center pt-5 md:pt-20 lg:pt-25 flex-wrap gap-10 lg:gap-25 min-h-screen">
+    <section id="home" className="flex flex-col lg:flex-row items-center justify-center md:pt-20 lg:pt-25 flex-wrap gap-5 lg:gap-25 min-h-screen">
 
       {/* LEFT */}
-      <div className="max-w-xl flex flex-col items-center lg:items-start text-center lg:text-left">
+      <div className="max-w-xl flex flex-col items-center lg:items-start text-center lg:text-left ">
         <div className="relative mb-4">
           <div className="absolute inset-0 bg-blue-500/30 blur-2xl rounded-full"></div>
           <img
             src="/profile.jpg"
             alt="Profile"
-            className="relative w-40 h-40 object-cover rounded-full border-2 border-blue-500/40"
+            className="relative w-20 h-20 md:w-40 md:h-40 object-cover rounded-full border-2 border-blue-500/40"
           />
         </div>
 
         <p className="text-blue-400 mb-2">Hello! I'm</p>
 
-        <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold mb-4">
+        <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold mb-2 md:mb-4">
           MD{" "}
           <span className="bg-linear-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
             Tauhid
           </span>
         </h1>
 
-        <h2 className="text-lg sm:text-xl text-gray-300 mb-4">
+        <h2 className="text-lg sm:text-xl text-gray-300 mb-2 md:mb-4">
           Full-Stack Developer
         </h2>
 
-        <p className="text-gray-400 mb-6">
+        <p className="text-gray-400 mb-2 md:mb-4">
           Building elegant solutions to complex problems with modern technologies.
         </p>
 
@@ -221,7 +221,7 @@ export default function Hero() {
           </div>
 
           {/* Typed Code */}
-          <div className="text-xs sm:text-sm font-mono whitespace-pre-wrap">
+          <div className="text-xs sm:text-sm font-mono whitespace-pre-wrap ">
             {codeTokens.map((token, i) => {
               if (i < tokenIndex) {
                 return (
