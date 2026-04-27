@@ -128,7 +128,7 @@ export default function Hero() {
   );
 
   return (
-    <section className="flex flex-col lg:flex-row items-center justify-center md:pt-20 lg:pt-25 flex-wrap gap-5 lg:gap-25 min-h-screen">
+    <section id="home" className="flex flex-col lg:flex-row items-center justify-center md:pt-20 lg:pt-25 flex-wrap gap-5 lg:gap-25 min-h-screen">
 
       {/* LEFT */}
       <div className="max-w-xl flex flex-col items-center lg:items-start text-center lg:text-left">

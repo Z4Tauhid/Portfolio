@@ -192,7 +192,7 @@ export default function Projects() {
       {/* Mobile */}
       <div
         {...(mounted ? handlers : {})}
-        className="sm:hidden relative w-screen overflow-hidden"
+        className="sm:hidden relative w-screen overflow-hidden "
       >
         <div
           className="flex transition-transform duration-300 ease-out"
