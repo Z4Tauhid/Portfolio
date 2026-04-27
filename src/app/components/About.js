@@ -141,7 +141,7 @@ export default function About() {
           </div>
 
           {/* Button */}
-          <a href="/MD TAUHID CV.pdf" target="_blank">
+          <a href="/MD TAUHID Resume.pdf" target="_blank">
           <button className="bg-blue-500 hover:bg-blue-600 px-5 py-2 rounded-lg flex items-center gap-2">
             <FaArrowCircleDown /><span>Download Resume</span>
           </button></a>

@@ -98,7 +98,7 @@ export default function Navbar() {
 
         {/* Right side */}
         <div className="flex items-center gap-4 pt-5 md:pt-0">
-          <a href="/MD TAUHID CV.pdf" target="_blank">
+          <a href="/MD TAUHID Resume.pdf" target="_blank">
             <button className="bg-blue-500 hover:bg-blue-600 transition px-4 py-2 rounded-lg text-sm">
             Resume</button>
           </a>
